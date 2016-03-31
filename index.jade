@@ -1,0 +1,115 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    title Genreations
+    meta(name="description", content="")    
+    meta(name="author", content="Antonio Cavalcanti-Nascimento")    
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="css/styles.css")
+    link(rel="stylesheet", href="css/layout.css")
+  
+  body
+  
+    nav
+      ul
+        li
+          a(href="#hair") Hair
+        li
+          a(href="#sunbed") Sunbed
+        li
+          a(href="#deals") Deals
+        li
+          a(href="#designs") Patterns
+        li.last
+          a(href="#contact") Find Us
+  
+    header.graffiti-box
+      .logo
+        h1 Generations
+      
+    
+    section.content
+      .quote-container
+        article.quotes
+        
+          hr
+          blockquote#myQuote  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo placeat optio aspernatur sint vel dolorem enim sed facilis accusamus, nulla magnam eius ad reprehenderit beatae necessitatibus tenetur corporis deserunt atque. 
+          hr
+    
+    section.hair-container#hair
+      h2 HAIR
+      .prices
+        .product
+          span GENTS
+          span.price £8.50
+        .product
+          span SCHOOL KIDS
+          span.price £7.00
+        .product
+          span OAP's or BUZZ CUTS
+          span.price £6.00
+        .product
+          span BEARD SHAPE UP
+          span.price £3.50
+        .product
+          span BEARD TRIM UP
+          span.price £2.50
+        .product
+          span HAIR SHAPE UP
+          span.price £2.50
+          
+    section.sunbed-container#sunbed
+      h2 SUNBEDS (235 watt)
+      .prices
+        .product
+          span 3 Minutes
+          span.price £1
+        .product
+          span 6 Minutes
+          span.price £2
+        .product
+          span 9 Minutes
+          span.price £3
+        .product
+          span 12 Minutes
+          span.price £4
+        .product
+          span 15 Minutes
+          span.price £5
+          
+    section.ladies-and-gents
+      h2 
+        span.pink Ladies 
+        & 
+        span.blue Gents
+        br 
+        span Welcome !
+          
+    section.deals#deals
+      h2 DEALS!  
+      .deal_1
+        span.title "The Stand-Up" 
+        span.body Gents cut & 6 minutes 
+        span.price Only £10
+        
+      .deal_2
+        span.title "The Lie-Down" 
+        span.body Gents cut & 9 minutes 
+        span.price Only £10 
+        
+    section.designs#designs
+      h2 DESIGNS
+      .insta-shell  
+    
+    
+    section.contact 
+      h2 FIND US
+      .address
+      .map#googleMap
+      .social-media
+          
+  script(src="http://maps.googleapis.com/maps/api/js")   
+  script(src="js/jquery-2.2.2.min.js")
+  script(src="js/magic.js")
+  script(src="js/gm.js")

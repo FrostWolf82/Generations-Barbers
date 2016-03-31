@@ -1,0 +1,190 @@
+.graffiti-box {
+  position: relative;
+  height: 1000px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-image: url(/img/graffiti.jpeg);
+  background-size: cover;
+  background-position: top center fixed;
+  background-repeat: no-repeat; }
+  .graffiti-box .logo {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+    margin-top: -80px; }
+    .graffiti-box .logo h1 {
+      font-family: MARSNEVENEKSK;
+      text-align: center;
+      font-size: 8em;
+      text-shadow: 3px 3px 4px white, -3px -3px 4px white; }
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 50px;
+  border: solid white 1px;
+  z-index: 9;
+  margin: 0 auto;
+  background-color: black; }
+  nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    nav ul li {
+      position: relative;
+      top: 10px;
+      padding: 0px 5%;
+      display: inline;
+      line-height: 1em;
+      border-right: solid white 1px; }
+      nav ul li a {
+        font-family: "Noto Serif";
+        text-decoration: none;
+        color: white; }
+
+li.last {
+  border: none; }
+
+.quote-container {
+  left: 0px;
+  right: 0px;
+  background-color: black;
+  font-size: 2em; }
+  .quote-container .quotes {
+    padding: 0px 0;
+    max-width: 640px;
+    text-align: center;
+    margin: 150px auto; }
+
+h2 {
+  font-family: MARSNEVENEKSK;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 5em;
+  font-weight: 100;
+  margin-bottom: 5px; }
+
+.hair-container {
+  background-color: white;
+  left: 0px;
+  right: 0px;
+  height: 500px; }
+  .hair-container .prices {
+    margin: auto;
+    max-width: 640px;
+    border: solid black 2px;
+    border-radius: 25px;
+    padding: 10px; }
+    .hair-container .prices .product {
+      text-align: left;
+      border-bottom: dashed black 1px; }
+      .hair-container .prices .product span {
+        font-size: 2em; }
+      .hair-container .prices .product .price {
+        float: right; }
+
+.sunbed-container {
+  background-color: black;
+  left: 0px;
+  right: 0px;
+  height: 500px;
+  color: white; }
+  .sunbed-container h2 {
+    color: white;
+    margin-top: 0px; }
+  .sunbed-container .prices {
+    margin: auto;
+    max-width: 640px;
+    border: solid white 2px;
+    border-radius: 25px;
+    padding: 10px; }
+    .sunbed-container .prices .product {
+      text-align: left;
+      border-bottom: dashed white 1px; }
+      .sunbed-container .prices .product span {
+        font-size: 2em; }
+      .sunbed-container .prices .product .price {
+        float: right; }
+
+.ladies-and-gents {
+  height: 300px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  background-image: url(/img/lagb.jpg);
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+  padding: 0px; }
+  .ladies-and-gents h2 {
+    margin-top: 25px;
+    color: white;
+    text-shadow: 2px 2px 2px black, -2px -2px 2px black; }
+    .ladies-and-gents h2 .pink {
+      color: hotpink; }
+    .ladies-and-gents h2 .blue {
+      color: skyblue; }
+
+.deals {
+  background-color: white;
+  height: 400px; }
+  .deals h2 {
+    color: red;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px 2px black, -2px -2px 2px black; }
+  .deals .deal_1 {
+    margin: 30px auto;
+    max-width: 640px;
+    border: solid black 2px;
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 0px; }
+    .deals .deal_1 .title {
+      color: orange;
+      font-size: 2.3em;
+      text-shadow: 2px 2px 2px black, -2px -2px 2px black; }
+    .deals .deal_1 .body {
+      font-size: 1.3em; }
+    .deals .deal_1 .price {
+      float: right;
+      color: red;
+      font-size: 2em; }
+  .deals .deal_2 {
+    margin: auto;
+    max-width: 640px;
+    border: solid black 2px;
+    border-radius: 25px;
+    padding: 10px; }
+    .deals .deal_2 .title {
+      color: orange;
+      font-size: 2.3em;
+      text-shadow: 2px 2px 2px black, -2px -2px 2px black; }
+    .deals .deal_2 .body {
+      font-size: 1.3em; }
+    .deals .deal_2 .price {
+      color: red;
+      float: right;
+      font-size: 2em; }
+
+.designs {
+  height: 600px;
+  background-image: url(/img/designs_bg.jpg);
+  background-position: center center;
+  background-size: cover; }
+  .designs h2 {
+    margin-top: 0px;
+    text-shadow: 2px 2px 2px white, -2px -2px 2px white; }
+
+.contact {
+  background-color: black;
+  height: 400px; }
+  .contact h2 {
+    color: white; }
+  .contact .map#googleMap {
+    width: 500px;
+    height: 380px; }
